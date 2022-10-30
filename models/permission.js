@@ -17,6 +17,20 @@ module.exports = (sequelize, DataTypes) => {
       });
     }
   };
-  
+  Permission.init({
+    perm_name: {
+      type: DataTypes.STRING,
+      unique: true,
+      allowNull: false
+    },
+    perm_description:  {
+      type: DataTypes.STRING,
+      allowNull: false
+    }
+  }, {
+    sequelize,
+    modelName: 'Permission',
+  });
+
   return Permission;
 };
