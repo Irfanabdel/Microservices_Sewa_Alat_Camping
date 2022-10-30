@@ -8,7 +8,7 @@ require('../config/passport')(passport);
 const Helper = require('../utils/helper');
 const helper = new Helper();
 
-// Create a new User
+// Create a new Usertest
 router.post('/', passport.authenticate('jwt', {
   session: false
 }), function (req, res) {
