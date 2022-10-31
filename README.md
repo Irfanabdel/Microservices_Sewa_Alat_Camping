@@ -15,26 +15,26 @@ Detail Transaction Service | [Check](order-service)
 
 
 ### Anggota Tim 
-a. 1197050043 Fellia Ayu Syahpoetri A.
-b. 1197050055 Irfan Abdel Hadi
-c. 1197050080 Muhammad Robi
-d. 1197050084 Muhammad Fahmi Rizaldi Ilham
+1. 1197050043 Fellia Ayu Syahpoetri A.
+2. 1197050055 Irfan Abdel Hadi
+3. 1197050080 Muhammad Robi
+4. 1197050084 Muhammad Fahmi Rizaldi Ilham
 
 
 ### Tasks
-1. User & Item Service  (Laravel, MySQL)
-2. Order Service  (Node JS, MySQL, GRPC)
-3. Transaction Service (Node JS, MySQL)
-3. Authentication and Authorization Service  (Node JS, MySQL)
+1. Architecture, User Service (Node JS, MySQL) - Fellia Ayu
+2. Detail Transaction Service  (Node JS Express, MongoDB) - M Robi 
+3. Transaction Service (Node JS Express, MongoDB) - Irfan Abdel
+3. Authentication and Authorization Service (Node JS, MySQL, JWT) - M Fahmi
 
-
-### Teknologi 
+### Teknologi yang Digunakan
 1. Node JS
 2. MySQL
-3. GRPC
+3. MongoDB
+4. GRPC
 
 
-### Liraries
+### Libraries
 1. Google GRPC for Node JS
 2. Eloquent ORM
 3. Artisan
@@ -42,25 +42,6 @@ d. 1197050084 Muhammad Fahmi Rizaldi Ilham
 5. Sequelize ORM
 6. JSON Webtoken
 7. Express JS
-
-
-### Order
-Method | Route | Parameter | Body | Response | Super Admin | Admin | Customer
----|---|---|---|---|---|---|---
-GET | /order | - | - | All Order | o | o | x
-POST | /order | - | user_id, item_id, teller_id | Order Created | o | o | o
-GET | /order/:id | - | - | Order Object | o | o | o
-PUT | /order/:id | id | user_id, item_id, teller_id | Updated Order | o | o | x
-DELETE | /order/:id | id | - | Deleted Order | o | o | x
-
-### Items
-Method | Route | Parameter | Body | Response | Super Admin | Admin | Customer
----|---|---|---|---|---|---|---
-GET | /item | - | - | All Item | o | o | o
-GET | /item/:id | id | - | Item | o | o | o
-POST | /item | - | name, price, status | Item | o | o | x
-PUT | /item/:id| id | name, price, status | Item | o | o | x
-DELETE | /item/:id| id | - | Item | o | o | x
 
 
 ### Transaction
