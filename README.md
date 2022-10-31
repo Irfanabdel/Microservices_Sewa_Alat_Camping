@@ -5,10 +5,9 @@ UTS Teknologi Basis Data Kelompok Sewa Alat Camping
 ### Repositories
 Service | Repositories
 ---|---
-Transaction Service | [Check](https://github.com/beeerlian/cr-order-trans-be)
 Auth Service | [Check](auth-service)
-Order Service | [Check](order-service)
-User and Item Service | [Check](https://github.com/aziznurulloh8910/api-sewa-kamera)
+Transaction Service | [Check](order-service)
+Detail Transaction Service | [Check](order-service)
 
 
 ### Architecture
@@ -23,10 +22,10 @@ d. 1197050084 Muhammad Fahmi Rizaldi Ilham
 
 
 ### Tasks
-1. User & Item Service (Aziz Nurulloh, Naufal Berlian T) (Laravel, MySQL)
-2. Order Service (Naufal Berlian T, Cahya Edriansa) (Node JS, MySQL, GRPC)
-3. Transaction Service (Naufal Berlian T) (Node JS, MySQL)
-3. Authentication and Authorization Service (Naufal Berlian T, Andre Aditya yanwar) (Node JS, MySQL)
+1. User & Item Service  (Laravel, MySQL)
+2. Order Service  (Node JS, MySQL, GRPC)
+3. Transaction Service (Node JS, MySQL)
+3. Authentication and Authorization Service  (Node JS, MySQL)
 
 
 ### Teknologi 
